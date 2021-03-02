@@ -1,0 +1,12 @@
+try does not include all code in its scope , so we will have possible uncatched errors
+umanaged resources in  --->  
+filestream: both read and write actions
+streamreader
+streamwriter  
+we should dispose for all - using ....
+in catch there is throw new exceptipn which is bad practice
+
+other: 
+reader.ReadToEnd() problamatic in case of a large file 
+if target file on create does not exist , it will also fail - check directory exists
+
